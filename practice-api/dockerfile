@@ -3,4 +3,4 @@ WORKDIR /practice-api
 COPY package.json .
 RUN npm install
 COPY . .
-CMD nodemon
+CMD npm start
